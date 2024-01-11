@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaBeer } from "react-icons/fa";
 
 const Content = () => {
   const [item, setItem] = useState([
