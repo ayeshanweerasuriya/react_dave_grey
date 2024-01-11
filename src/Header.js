@@ -1,11 +1,10 @@
 const Header = () => {
+  const headerStyle = {
+    backgroundColor: "#000",
+    color: "#fff",
+  };
   return (
-    <header
-      style={{
-        backgroundColor: "darkblue",
-        color: "lightblue",
-      }}
-    >
+    <header style={headerStyle}>
       <p>
         <strong>H</strong>eader
       </p>
