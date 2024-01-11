@@ -1,10 +1,6 @@
 const Header = () => {
-  const headerStyle = {
-    backgroundColor: "#000",
-    color: "#fff",
-  };
   return (
-    <header style={headerStyle}>
+    <header>
       <p>
         <strong>H</strong>eader
       </p>
