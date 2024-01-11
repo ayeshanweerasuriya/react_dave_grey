@@ -30,6 +30,9 @@ const Content = () => {
           </li>
         ))}
       </ul>
+      <h3>
+        Lets go for a <FaBeer />?
+      </h3>
     </main>
   );
 };
