@@ -33,6 +33,8 @@ const Content = () => {
   const handleDelete = (id) => {
     const removeItem = item.filter((item) => item.id !== id);
     setItem(removeItem);
+
+    // when we made a change it will save inside the local storage
     localStorage.setItem("shoppinglist", JSON.stringify(removeItem));
   };
 
